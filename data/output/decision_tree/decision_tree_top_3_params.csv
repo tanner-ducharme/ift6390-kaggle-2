@@ -1,0 +1,4 @@
+vocab_size,model_name,text_column,ngram,vectorizer,splitting_criterion,tree_max_depth,tree_max_features,accuracy,acc2,acc3
+10000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 1)",CountVectorizer(max_features=10000),gini,7,,0.579,0.5909600984747376,0.5962299896297596
+1000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 3)","CountVectorizer(max_features=1000, ngram_range=(1, 3))",gini,7,,0.5765,0.5910801080750255,0.5960699889297482
+1000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 2)","CountVectorizer(max_features=1000, ngram_range=(1, 2))",gini,7,,0.5785,0.5910001048748975,0.5960549887797467
