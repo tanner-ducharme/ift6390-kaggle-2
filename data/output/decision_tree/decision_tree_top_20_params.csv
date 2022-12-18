@@ -1,0 +1,51 @@
+vocab_size,model_name,text_column,ngram,vectorizer,splitting_criterion,tree_max_depth,tree_max_features,accuracy,acc2
+1000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 3)","CountVectorizer(max_features=1000, ngram_range=(1, 3))",gini,7,,0.5765,0.5910801080750255
+1000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 2)","CountVectorizer(max_features=1000, ngram_range=(1, 2))",gini,7,,0.5785,0.5910001048748975
+10000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 1)",CountVectorizer(max_features=10000),gini,7,,0.579,0.5909600984747376
+10000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 3)","CountVectorizer(max_features=10000, ngram_range=(1, 3))",gini,7,,0.579,0.5908401104748816
+1000,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 2)","CountVectorizer(max_features=1000, ngram_range=(1, 2))",gini,7,,0.5785,0.5908200904744656
+100,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 2)","TfidfVectorizer(max_features=100, ngram_range=(1, 2))",gini,7,,0.5715,0.5880800792720494
+1000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 1)",TfidfVectorizer(max_features=1000),gini,7,,0.572,0.5878400744717616
+1000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 2)","TfidfVectorizer(max_features=1000, ngram_range=(1, 2))",gini,7,,0.5735,0.5860801348715615
+1000,DecisionTreeClassifier(),text_lemmatized,"(1, 1)",TfidfVectorizer(max_features=1000),gini,7,,0.5655,0.5837001068690975
+1000,DecisionTreeClassifier(),text_lemmatized,"(1, 3)","TfidfVectorizer(max_features=1000, ngram_range=(1, 3))",gini,7,,0.5715,0.5830801360691855
+100,DecisionTreeClassifier(),text_no_numerals,"(1, 1)",CountVectorizer(max_features=100),gini,7,,0.562,0.5816001056673934
+100,DecisionTreeClassifier(),text_no_numerals,"(1, 3)","TfidfVectorizer(max_features=100, ngram_range=(1, 3))",gini,7,,0.5655,0.5810001296673935
+100,DecisionTreeClassifier(),text_no_numerals,"(1, 2)","CountVectorizer(max_features=100, ngram_range=(1, 2))",gini,7,,0.574,0.5807601044666973
+100,DecisionTreeClassifier(),text_no_numerals,"(1, 3)","CountVectorizer(max_features=100, ngram_range=(1, 3))",gini,7,,0.5735,0.5805801068666013
+10000,DecisionTreeClassifier(),text_lemmatized,"(1, 3)","CountVectorizer(max_features=10000, ngram_range=(1, 3))",gini,7,,0.567,0.5798998204603292
+10000,DecisionTreeClassifier(),text_lemmatized,"(1, 1)",CountVectorizer(max_features=10000),gini,7,,0.5665,0.579579818460033
+1000,DecisionTreeClassifier(),text_lemmatized,"(1, 1)",CountVectorizer(max_features=1000),gini,7,,0.566,0.5795598128599051
+10000,DecisionTreeClassifier(),text_no_numerals,"(1, 2)","CountVectorizer(max_features=10000, ngram_range=(1, 2))",gini,7,,0.5675,0.5789398228596091
+1000,DecisionTreeClassifier(),text_no_numerals,"(1, 2)","CountVectorizer(max_features=1000, ngram_range=(1, 2))",gini,7,,0.5665,0.578439811258977
+1000,DecisionTreeClassifier(),text_no_numerals,"(1, 3)","CountVectorizer(max_features=1000, ngram_range=(1, 3))",gini,7,,0.5685,0.5783398108588891
+100,DecisionTreeClassifier(),text_lemmatized,"(1, 3)","TfidfVectorizer(max_features=100, ngram_range=(1, 3))",gini,5,,0.564,0.5771199924615452
+10000,DecisionTreeClassifier(),text_lemmatized,"(1, 1)",TfidfVectorizer(max_features=10000),gini,7,,0.5645,0.576899813257785
+1000,DecisionTreeClassifier(),text_no_numerals,"(1, 1)",TfidfVectorizer(max_features=1000),gini,7,,0.567,0.5767398380581531
+100,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 1)",CountVectorizer(max_features=100),gini,7,sqrt,0.5705,0.5760600388616253
+100,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 2)","CountVectorizer(max_features=100, ngram_range=(1, 2))",gini,5,,0.5705,0.5757000580617213
+100,DecisionTreeClassifier(),text_porter_stemmed,"(1, 1)",TfidfVectorizer(max_features=100),gini,5,,0.5625,0.5752200604613852
+100,DecisionTreeClassifier(),text_lemmatized,"(1, 2)","CountVectorizer(max_features=100, ngram_range=(1, 2))",gini,5,,0.568,0.5749600368607052
+10000,DecisionTreeClassifier(),text_no_numerals,"(1, 1)",CountVectorizer(max_features=10000),gini,5,,0.569,0.5745001252621054
+1000,DecisionTreeClassifier(),text_lemmatized,"(1, 2)","TfidfVectorizer(max_features=1000, ngram_range=(1, 2))",gini,5,,0.568,0.5744600840612493
+10000,DecisionTreeClassifier(),text_no_numerals,"(1, 3)","CountVectorizer(max_features=10000, ngram_range=(1, 3))",gini,5,,0.567,0.5744401276621054
+10000,DecisionTreeClassifier(),text_lemmatized,"(1, 2)","CountVectorizer(max_features=10000, ngram_range=(1, 2))",gini,5,,0.568,0.5738001536621135
+100,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 3)","TfidfVectorizer(max_features=100, ngram_range=(1, 3))",gini,5,,0.562,0.5737000560600812
+1000,DecisionTreeClassifier(),text_lemmatized,"(1, 2)","CountVectorizer(max_features=1000, ngram_range=(1, 2))",gini,5,,0.5695,0.5736801512619695
+1000,DecisionTreeClassifier(),text_lemmatized,"(1, 3)","CountVectorizer(max_features=1000, ngram_range=(1, 3))",gini,5,,0.5695,0.5736601468618653
+10000,DecisionTreeClassifier(),text_no_numerals,"(1, 1)",TfidfVectorizer(max_features=10000),gini,5,,0.5655,0.5725601460609693
+100,DecisionTreeClassifier(),text_porter_stemmed,"(1, 2)","CountVectorizer(max_features=100, ngram_range=(1, 2))",gini,5,,0.5725,0.5721601300603293
+10000,DecisionTreeClassifier(),text_no_numerals,"(1, 2)","TfidfVectorizer(max_features=10000, ngram_range=(1, 2))",gini,5,,0.564,0.5716201420601373
+10000,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 2)","CountVectorizer(max_features=10000, ngram_range=(1, 2))",gini,5,,0.571,0.567959898452337
+1000,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 1)",CountVectorizer(max_features=1000),gini,5,,0.571,0.5678998960522409
+10000,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 3)","CountVectorizer(max_features=10000, ngram_range=(1, 3))",gini,5,,0.572,0.567879898852281
+1000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 1)",CountVectorizer(max_features=1000),gini,5,,0.5725,0.567579876051585
+10000,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 3)","TfidfVectorizer(max_features=10000, ngram_range=(1, 3))",gini,5,,0.567,0.567539942852889
+10000,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 2)","TfidfVectorizer(max_features=10000, ngram_range=(1, 2))",gini,5,,0.569,0.567499940052801
+1000,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 1)",TfidfVectorizer(max_features=1000),gini,5,,0.569,0.5673999504529291
+10000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 2)","CountVectorizer(max_features=10000, ngram_range=(1, 2))",gini,5,,0.5715,0.567339880851489
+1000,DecisionTreeClassifier(),text_lancaster_stemmed,"(1, 2)","TfidfVectorizer(max_features=1000, ngram_range=(1, 2))",gini,5,,0.568,0.565919964452025
+10000,DecisionTreeClassifier(),text_porter_stemmed,"(1, 1)",TfidfVectorizer(max_features=10000),gini,5,,0.5685,0.5659199140510169
+100,DecisionTreeClassifier(),text_porter_stemmed,"(1, 3)","CountVectorizer(max_features=100, ngram_range=(1, 3))",gini,7,log2,0.5625,0.5641397768468487
+100,DecisionTreeClassifier(),text_lemmatized,"(1, 2)","TfidfVectorizer(max_features=100, ngram_range=(1, 2))",gini,3,,0.5625,0.5623999664492488
+100,DecisionTreeClassifier(),text_no_numerals,"(1, 1)",TfidfVectorizer(max_features=100),gini,7,sqrt,0.5645,0.547020157640769
