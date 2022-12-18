@@ -45,7 +45,7 @@ print("shape of valid", validate_vectors.shape)
 #Try -1
 # classifier_linear = svm.SVC(kernel='rbf',C=0.5,gamma=0.1)
 #Try -2
-classifier_SVM = svm.SVC(kernel='rbf',C=10,gamma=0.01,verbose=True)
+classifier_SVM = svm.SVC(kernel='rbf',C=10,gamma=0.01,verbose=True,probability=True)
 
 
 t0 = time.time()
@@ -83,7 +83,7 @@ sentimentConvertor = {
 
 #### ROC Curve ####
 
-y_score1 = classifier_SVM.predict_proba(X_validate)[:,1]
+y_score1 = classifier_SVM.predict_proba(validate_vectors)[:,1]
 print('roc_auc_score for SVM ', roc_auc_score(y_validate, y_score1))
 
 
