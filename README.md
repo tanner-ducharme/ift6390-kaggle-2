@@ -10,6 +10,9 @@ Some of the filepaths rely on google colab and may have to be changed so that th
 The following files contain the work for our models
 
 Decision Tree: decision_tree_final.ipynb
+
 Neural Network: neural_network_final.ipynb
+
 Naive Bayes: naive_bayes_final.ipynb
+
 SVM:
