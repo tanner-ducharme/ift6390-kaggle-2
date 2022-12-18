@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 /env
 /data/input
+*.json
+svm_try.ipynb
